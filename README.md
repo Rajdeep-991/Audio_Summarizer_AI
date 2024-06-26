@@ -19,38 +19,45 @@ Requirements
 - Google API Key for accessing Generative AI services
 - Pre-trained models for Whisper and Generative AI
 
-How to Use
+How To Use
 ----------
 - Install Required Libraries:
-  Ensure you have the required Python libraries installed. You can install them using pip:
-  pip install google-generativeai whisper
+  - Ensure you have the required Python libraries installed. You can install them using pip:
+
+    pip install google-generativeai whisper
+
 - Setup API Key:
-  Save your Google API Key in a file named Google_API_Key.txt.
+  - Save your Google API Key in a file named Google_API_Key.txt.
+
 - Text Summarizer:
-  Save the text summarizer code into a Python file, e.g., text_summarizer.py.
-  Run the file to test the summarizer function.
-  You can uncomment the test line to see a sample summary.
+  - Save the text summarizer code into a Python file, e.g., text_summarizer.py.
+  - Run the file to test the summarizer function.
+  - You can uncomment the test line to see a sample summary.
+
 - Audio Transcriber:
-  Save the transcriber code into a Python file, e.g., audio_transcriber.py.
-  Run the file to transcribe Sample_Audio_1.mp3.
+  - Save the transcriber code into a Python file, e.g., audio_transcriber.py.
+  - Run the file to transcribe Sample_Audio_1.mp3.
+
 - Audio Summarizer:
-  Save the audio summarizer code into a Python file, e.g., audio_summarizer.py.
-  Run the file and input the name of your audio file when prompted.
-  The program will transcribe and then summarize the audio content.
+  - Save the audio summarizer code into a Python file, e.g., audio_summarizer.py.
+  - Run the file and input the name of your audio file when prompted.
+  - The program will transcribe and then summarize the audio content.
 
 How It Works
 ------------
 - Text Summarizer:
-  Loads the Google API key and configures the Generative AI model.
-  Defines a function to summarize a given text transcript.
+  - Loads the Google API key and configures the Generative AI model.
+  - Defines a function to summarize a given text transcript.
+
 - Audio Transcriber:
-  Loads the Whisper model.
-  Transcribes the provided audio file into text.
+  - Loads the Whisper model.
+  - Transcribes the provided audio file into text.
+
 - Audio Summarizer:
-  Loads the Whisper model.
-  Prompts the user to input an audio file.
-  Transcribes the audio file into text.
-  Summarizes the transcribed text using the text summarizer function.
+  - Loads the Whisper model.
+  - Prompts the user to input an audio file.
+  - Transcribes the audio file into text.
+  - Summarizes the transcribed text using the text summarizer function.
 
 Notes
 -----

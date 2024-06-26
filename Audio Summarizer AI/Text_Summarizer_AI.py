@@ -18,7 +18,5 @@ def get_summary(transcript):
     response = model.generate_content(prompt)
     return response.text
 
-print()
-
 # Uncomment the following line to test the summarizer with a sample transcript
-#print(get_summary("""Hey everyone, life's like a box of chocolates, right? Full of surprises. So, let's roll with the punches. Take each day as it comes and make the most of every moment. Cheers to randomness, thanks!""").replace('**', ''), "\n")
+#print("\n"+get_summary("""Hey everyone, life's like a box of chocolates, right? Full of surprises. So, let's roll with the punches. Take each day as it comes and make the most of every moment. Cheers to randomness, thanks!""").replace('**', '')+"\n")

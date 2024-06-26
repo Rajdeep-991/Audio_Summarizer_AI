@@ -15,5 +15,4 @@ result = model.transcribe(audio_file)
 transcription = result["text"]
 
 # Print the summary of the transcription
-print()
-print(Text_Summarizer_AI.get_summary(transcription).replace('**', ''), "\n")
+print("\n"+Text_Summarizer_AI.get_summary(transcription).replace('**', '')+"\n")

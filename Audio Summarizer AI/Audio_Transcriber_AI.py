@@ -9,4 +9,4 @@ result = model.transcribe("Sample_Audio_1.mp3")
 
 # Print the transcript
 print("\nTranscript\n----------")
-print(result["text"].strip(), "\n")
+print(result["text"].strip()+"\n")
